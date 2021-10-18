@@ -98,7 +98,7 @@ QMap<QString, QString> Utils::readInfoFromPid(quint32 pid)
     QString applicationName = "";
     QString icon = "";
 
-    QStringList args; // Arguments of the proecss determined by pid
+    QStringList args; // Arguments of the process determined by pid
 
 #if __FreeBSD__
 
